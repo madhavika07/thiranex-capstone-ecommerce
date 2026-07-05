@@ -50,7 +50,7 @@ function renderCatalogView() {
 
 // View 2: Detailed Single Product Page Component
 function renderProductDetailView(id) {
-    const product = products.find(p => p.id === id);
+    const product = products.find(p => p.id == id);
 
     if (!product) {
         appRoot.innerHTML = `<h2 class="view-title">Product Variant Specified Does Not Exist</h2><a href="#" class="btn-back">← Back to Catalog</a>`;
