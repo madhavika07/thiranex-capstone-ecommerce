@@ -60,16 +60,16 @@ function renderProductDetailView(id) {
     appRoot.innerHTML = `
         <a href="#" class="btn-back">← Back to Catalog</a>
         <div class="detail-container">
-            <div class="image-placeholder" style="height: 100%; min-height: 300px;">
-                <svg width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.25"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4H6z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
-            </div>
+           <div class="image-container" style="height: 100%; min-height: 300px;">
+                   <img src="${product.image}" alt="${product.name}" style="width: 100%; max-height: 350px; object-fit: cover; border-radius: 8px;">
+           </div>
             <div class="detail-info">
                 <h2 class="view-title" style="margin-bottom:0.5rem;">${product.name}</h2>
                 <p class="product-price" style="font-size:1.5rem;">${product.price}</p>
                 <p class="detail-desc">${product.desc}</p>
-                <div style="background:#f1f5f9; padding:1rem; border-radius:8px; font-weight:500; font-size:0.9rem; color:#475569;">
-                    💡 Architecture Meta Specs: ${product.tech}
-                </div>
+               <div style="background:#dcfce7; padding:0.5rem 1rem; border-radius:8px; font-weight:600; font-size:0.9rem; color:#166534; display:inline-block; margin-top:1rem;"> 
+                 ✓ Item in Stock & Ready to Ship
+              </div>
             </div>
         </div>
     `;
