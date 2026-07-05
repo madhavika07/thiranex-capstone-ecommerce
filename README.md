@@ -11,7 +11,7 @@ A high-performance, single-page application (SPA) E-Commerce Product Catalog bui
 
 ## 📂 Project Structure
 
-- index.html: Global viewport mounting hub
-- style.css: Adaptive grid and fluid card layouts
-- script.js: SPA router and core state controller
-- README.md: Technical architecture blueprints
+├── index.html       # Global viewport mounting hub
+├── style.css        # Adaptive grid and fluid card layouts
+├── script.js        # Core SPA router, product database engine, and state controller
+└── README.md        # Technical architecture blueprints
