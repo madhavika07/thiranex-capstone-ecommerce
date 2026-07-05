@@ -1,10 +1,12 @@
 // --- PRODUCT DATABASE MATRICES (State Core) ---
 const products = [
-    { id: "1", name: "Pro Wireless Headphones", price: "$299", desc: "Experience pure audio immersion with industry-leading active noise cancellation architecture, 40-hour deep battery lifespans, and premium high-fidelity acoustic audio engineering components built for high performance.", tech: "Bluetooth 5.2 • ANC • 40hr Battery" },
-    { id: "2", name: "Mechanical Gaming Keyboard", price: "$149", desc: "Engineered specifically for hyper-responsive performance. Features ultra-durable tactile mechanical switches, structural aircraft-grade anodized aluminum frame plates, and beautiful per-key localized custom backlighting profiles.", tech: "Hot-swappable • RGB • Linear Switches" },
-    { id: "3", name: "UltraWide Productivity Monitor", price: "$499", desc: "Maximize your screen real estate. This breathtaking 34-inch panoramic display features razor-sharp high pixel densities, flawless structural IPS color consistency ranges, and fluid high refresh capabilities optimized for split-window workflows.", tech: "34\" IPS • 144Hz • 21:9 Aspect Ratio" }
+    { id: 1, name: "Pro Wireless Headphones", price: 299, image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80", desc: "Studio-grade sound isolation with a 40-hour dynamic battery life." },
+    { id: 2, name: "Mechanical Gaming Keyboard", price: 149, image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&q=80", desc: "Ultra-responsive tactile switches featuring customizable per-key RGB backlighting." },
+    { id: 3, name: "UltraWide Curved Monitor", price: 599, image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&q=80", desc: "Immersive 34-inch panoramic screen featuring a rapid 144Hz refresh rate." },
+    { id: 4, name: "Ergonomic Wireless Mouse", price: 89, image: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=500&q=80", desc: "High-precision 26K DPI optical sensor designed for all-day comfort." },
+    { id: 5, name: "4K Pro Streaming Webcam", price: 199, image: "https://images.unsplash.com/photo-1603162586341-a021508a446a?w=500&q=80", desc: "Crystal clear Ultra HD video capture with integrated dual noise-canceling mics." },
+    { id: 6, name: "Studio Condenser Microphone", price: 249, image: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=500&q=80", desc: "Professional cardoid recording patterns perfect for streaming and podcasting." }
 ];
-
 // --- APP ROUTING COMPONENT ENGINE ---
 const appRoot = document.getElementById('app-root');
 
