@@ -32,9 +32,9 @@ function renderCatalogView() {
     products.forEach(product => {
         htmlContent += `
             <article class="product-card">
-                <div class="image-placeholder">
-                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4H6z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
-                </div>
+               <div class="image-container">
+    <img src="${product.image}" alt="${product.name}" class="product-img" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+</div>
                 <div class="product-info">
                     <h3 class="product-name">${product.name}</h3>
                     <p class="product-price">${product.price}</p>
