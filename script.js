@@ -67,9 +67,11 @@ function renderProductDetailView(id) {
                 <h2 class="view-title" style="margin-bottom:0.5rem;">${product.name}</h2>
                 <p class="product-price" style="font-size:1.5rem;">${product.price}</p>
                 <p class="detail-desc">${product.desc}</p>
-               <div style="background:#dcfce7; padding:0.5rem 1rem; border-radius:8px; font-weight:600; font-size:0.9rem; color:#166534; display:inline-block; margin-top:1rem;"> 
-                 ✓ Item in Stock & Ready to Ship
-              </div>
+<div style="margin-top: 1.5rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
+    <span style="background: #e2e8f0; padding: 0.35rem 0.75rem; border-radius: 6px; font-size: 0.8rem; font-weight: 500; color: #475569;">🛡️ 2-Year Warranty</span>
+    <span style="background: #e0f2fe; padding: 0.35rem 0.75rem; border-radius: 6px; font-size: 0.8rem; font-weight: 500; color: #0369a1;">🚚 Free Express Shipping</span>
+    <span style="background: #fef3c7; padding: 0.35rem 0.75rem; border-radius: 6px; font-size: 0.8rem; font-weight: 500; color: #92400e;">⭐ Top Rated Asset</span>
+</div>
             </div>
         </div>
     `;
