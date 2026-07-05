@@ -4,7 +4,7 @@ const products = [
     { id: 2, name: "Mechanical Gaming Keyboard", price: 149, image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&q=80", desc: "Ultra-responsive tactile switches featuring customizable per-key RGB backlighting." },
     { id: 3, name: "UltraWide Curved Monitor", price: 599, image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&q=80", desc: "Immersive 34-inch panoramic screen featuring a rapid 144Hz refresh rate." },
     { id: 4, name: "Ergonomic Wireless Mouse", price: 89, image: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=500&q=80", desc: "High-precision 26K DPI optical sensor designed for all-day comfort." },
-    { id: 5, name: "4K Pro Streaming Webcam", price: 199, image: "https://images.unsplash.com/photo-1603162586341-a021508a446a?w=500&q=80", desc: "Crystal clear Ultra HD video capture with integrated dual noise-canceling mics." },
+    { id: 5, name: "4K Pro Streaming Webcam", price: 199,image: "https://images.unsplash.com/photo-1612436300185-304671fc0f06?w=500&q=80", desc: "Crystal clear Ultra HD video capture with integrated dual noise-canceling mics." },
     { id: 6, name: "Studio Condenser Microphone", price: 249, image: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=500&q=80", desc: "Professional cardoid recording patterns perfect for streaming and podcasting." }
 ];
 // --- APP ROUTING COMPONENT ENGINE ---
